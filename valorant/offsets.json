@@ -1,0 +1,19 @@
+{
+  "g_world": "0xb490930",
+  "trigger_veh": "0xb490930",
+  "fname_pool": "0xb600040",
+  "fname_state": "0xb7ddb80",
+  "static_find_object": "0x1981d30",
+  "static_load_object": "0x1985860",
+  "process_event": "0x19565d0",
+  "bone_matrix": "0x3e61cf0",
+  "set_ares_outline": "0x3df5e60",
+  "get_spread_angles": "0x64d9ef0",
+  "get_spread_values": "0x5a7c740",
+  "toangle_and_normalize": "0x162b660",
+  "tovector_and_normalize": "0x1630cb0",
+  "mark_render_state_dirty": "0x1552880",
+  "play_finisher_effect": "0x59fc130",
+  "vpc_draw": "0x406a540",
+  "vpc_draw_transition": "0x4078220"
+}

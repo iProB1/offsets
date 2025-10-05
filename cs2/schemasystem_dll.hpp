@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-08-28 08:14:24.421529300 UTC
+// 2025-10-05 21:29:44.268067400 UTC
 
 #pragma once
 
@@ -112,10 +112,11 @@ namespace cs2_dumper {
             namespace InfoForResourceTypeCResourceManifestInternal {
             }
             // Parent: None
-            // Field count: 22
+            // Field count: 23
             namespace CSchemaSystemInternalRegistration {
                 constexpr std::ptrdiff_t m_Vector2D = 0x0; // Vector2D
                 constexpr std::ptrdiff_t m_Vector = 0x8; // Vector
+                constexpr std::ptrdiff_t m_VectorWS = 0x14; // VectorWS
                 constexpr std::ptrdiff_t m_VectorAligned = 0x20; // VectorAligned
                 constexpr std::ptrdiff_t m_Quaternion = 0x30; // Quaternion
                 constexpr std::ptrdiff_t m_QAngle = 0x40; // QAngle

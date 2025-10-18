@@ -1,19 +1,11 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-10-05 21:29:44.268067400 UTC
+// 2025-10-18 15:35:10.434551100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: scenesystem.dll
     // Class count: 9
-    // Enum count: 1
+    // Enum count: 3
     public static class ScenesystemDll {
-        // Alignment: 1
-        // Member count: 4
-        public enum DisableShadows_t : byte {
-            kDisableShadows_None = 0x0,
-            kDisableShadows_All = 0x1,
-            kDisableShadows_Baked = 0x2,
-            kDisableShadows_Realtime = 0x3
-        }
         // Parent: None
         // Field count: 10
         //

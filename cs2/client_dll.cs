@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-10-25 07:56:57.443617600 UTC
+// 2025-11-20 23:43:04.778995800 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -897,12 +897,12 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_iBombSite (int)
         // NetworkVarNames: m_hBombPlanter (CHandle<CCSPlayerPawn>)
         public static class C_RetakeGameRules {
-            public const nint m_nMatchSeed = 0xF8; // int32
-            public const nint m_bBlockersPresent = 0xFC; // bool
-            public const nint m_bRoundInProgress = 0xFD; // bool
-            public const nint m_iFirstSecondHalfRound = 0x100; // int32
-            public const nint m_iBombSite = 0x104; // int32
-            public const nint m_hBombPlanter = 0x108; // CHandle<C_CSPlayerPawn>
+            public const nint m_nMatchSeed = 0x138; // int32
+            public const nint m_bBlockersPresent = 0x13C; // bool
+            public const nint m_bRoundInProgress = 0x13D; // bool
+            public const nint m_iFirstSecondHalfRound = 0x140; // int32
+            public const nint m_iBombSite = 0x144; // int32
+            public const nint m_hBombPlanter = 0x148; // CHandle<C_CSPlayerPawn>
         }
         // Parent: None
         // Field count: 2
@@ -3977,7 +3977,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_vMaxs = 0x6CC; // Vector
         }
         // Parent: CPlayer_MovementServices_Humanoid
-        // Field count: 39
+        // Field count: 40
         //
         // Metadata:
         // NetworkVarNames: m_vecLadderNormal (Vector)
@@ -3999,6 +3999,7 @@ namespace CS2Dumper.Schemas {
         // NetworkVarNames: m_flOffsetTickStashedSpeed (float)
         // NetworkVarNames: m_flStamina (float)
         // NetworkVarNames: m_bWasSurfing (bool)
+        // NetworkVarNames: m_bJumpApexPending (bool)
         public static class CCSPlayer_MovementServices {
             public const nint m_vecLadderNormal = 0x278; // Vector
             public const nint m_nLadderSurfacePropIndex = 0x284; // int32
@@ -4039,6 +4040,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_flTicksSinceLastSurfingDetected = 0x538; // float32
             public const nint m_bWasSurfing = 0x53C; // bool
             public const nint m_vecInputRotated = 0x5CC; // Vector
+            public const nint m_bJumpApexPending = 0xDF8; // bool
         }
         // Parent: 
         // Field count: 5
@@ -5902,27 +5904,27 @@ namespace CS2Dumper.Schemas {
             public const nint m_bSwitchingTeamsAtRoundReset = 0xD7D; // bool
             public const nint m_pGameModeRules = 0xD98; // CCSGameModeRules*
             public const nint m_RetakeRules = 0xDA0; // C_RetakeGameRules
-            public const nint m_nMatchEndCount = 0xEB8; // uint8
-            public const nint m_nTTeamIntroVariant = 0xEBC; // int32
-            public const nint m_nCTTeamIntroVariant = 0xEC0; // int32
-            public const nint m_bTeamIntroPeriod = 0xEC4; // bool
-            public const nint m_iRoundEndWinnerTeam = 0xEC8; // int32
-            public const nint m_eRoundEndReason = 0xECC; // int32
-            public const nint m_bRoundEndShowTimerDefend = 0xED0; // bool
-            public const nint m_iRoundEndTimerTime = 0xED4; // int32
-            public const nint m_sRoundEndFunFactToken = 0xED8; // CUtlString
-            public const nint m_iRoundEndFunFactPlayerSlot = 0xEE0; // CPlayerSlot
-            public const nint m_iRoundEndFunFactData1 = 0xEE4; // int32
-            public const nint m_iRoundEndFunFactData2 = 0xEE8; // int32
-            public const nint m_iRoundEndFunFactData3 = 0xEEC; // int32
-            public const nint m_sRoundEndMessage = 0xEF0; // CUtlString
-            public const nint m_iRoundEndPlayerCount = 0xEF8; // int32
-            public const nint m_bRoundEndNoMusic = 0xEFC; // bool
-            public const nint m_iRoundEndLegacy = 0xF00; // int32
-            public const nint m_nRoundEndCount = 0xF04; // uint8
-            public const nint m_iRoundStartRoundNumber = 0xF08; // int32
-            public const nint m_nRoundStartCount = 0xF0C; // uint8
-            public const nint m_flLastPerfSampleTime = 0x4F18; // float64
+            public const nint m_nMatchEndCount = 0xEF8; // uint8
+            public const nint m_nTTeamIntroVariant = 0xEFC; // int32
+            public const nint m_nCTTeamIntroVariant = 0xF00; // int32
+            public const nint m_bTeamIntroPeriod = 0xF04; // bool
+            public const nint m_iRoundEndWinnerTeam = 0xF08; // int32
+            public const nint m_eRoundEndReason = 0xF0C; // int32
+            public const nint m_bRoundEndShowTimerDefend = 0xF10; // bool
+            public const nint m_iRoundEndTimerTime = 0xF14; // int32
+            public const nint m_sRoundEndFunFactToken = 0xF18; // CUtlString
+            public const nint m_iRoundEndFunFactPlayerSlot = 0xF20; // CPlayerSlot
+            public const nint m_iRoundEndFunFactData1 = 0xF24; // int32
+            public const nint m_iRoundEndFunFactData2 = 0xF28; // int32
+            public const nint m_iRoundEndFunFactData3 = 0xF2C; // int32
+            public const nint m_sRoundEndMessage = 0xF30; // CUtlString
+            public const nint m_iRoundEndPlayerCount = 0xF38; // int32
+            public const nint m_bRoundEndNoMusic = 0xF3C; // bool
+            public const nint m_iRoundEndLegacy = 0xF40; // int32
+            public const nint m_nRoundEndCount = 0xF44; // uint8
+            public const nint m_iRoundStartRoundNumber = 0xF48; // int32
+            public const nint m_nRoundStartCount = 0xF4C; // uint8
+            public const nint m_flLastPerfSampleTime = 0x4F58; // float64
         }
         // Parent: C_BaseModelEntity
         // Field count: 2
@@ -6433,8 +6435,8 @@ namespace CS2Dumper.Schemas {
             public const nint m_bIsHoldingLookAtWeapon = 0xCD; // bool
             public const nint m_nOldTotalShootPositionHistoryCount = 0xD0; // uint32
             public const nint m_nOldTotalInputHistoryCount = 0x368; // uint32
-            public const nint m_networkAnimTiming = 0x18C8; // C_NetworkUtlVectorBase<uint8>
-            public const nint m_bBlockInspectUntilNextGraphUpdate = 0x18E0; // bool
+            public const nint m_networkAnimTiming = 0x18E0; // C_NetworkUtlVectorBase<uint8>
+            public const nint m_bBlockInspectUntilNextGraphUpdate = 0x18F8; // bool
         }
         // Parent: CBaseAnimGraph
         // Field count: 2
